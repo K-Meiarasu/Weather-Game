@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: aqua;
+  background-color: black;
+  padding: 2vw;
 }
-
-.App-link {
-  color: #61dafb;
+.card{
+  display: flex;
+  align-items: center;
+  margin-top: 2vw;
+  margin-left: 34vw;
+  margin-bottom: 2vw;
+  width: 26vw;
+  flex-direction: column;
+  color: black;
+  background-color: aqua;
+  border-radius: 0.4vw;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#info{
+  text-align: center;
+}
+#home{
+  margin-left: 37vw;
+  width: 20vw;
+}
+#city{
+  font-size: 3vw;
+  font-weight: bold;
+}
+#deg{
+  font-size: 4vw;
+  font-weight: bold;
+  border: 0.15vw solid black;
+  padding: 0.5vw;
+}
+#sym{
+  font-size: 4vw;
+  font-weight: bold;
+}
+input{
+  padding: 1vw;
+  width: 26vw;
+  border-radius: 0.4vw;
+  color: aqua;
+  border: 0.25vw solid aqua;
+  margin-left: 34vw;
+  font-size: 2vw;
+  font-weight: bold;
+  background: transparent;
+}
+input:focus{
+  outline: none;
+}
+.main{
+  background-color:black;
+  height: auto;
+  padding: 1vw;
+}
+.head{
+  padding: 1vw;
+  text-align: center;
+  color: black;
+  background-color:aqua;
+  border: 0.5vw solid black;
+}
+.tab{
+  display: flex;
+  justify-content: center;
+  margin: 3vw;
+}
+table td{
+  text-align: center;
+  border: 0.25vw solid aqua;
+  width: 8vw;
+  height: 8vw;
+  background-color: black;
+  color: aqua;
+  font-size: 4vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+.res{
+  text-align: center;
+  color: aqua;
+  font-size: 4vw;
+}
+button{
+  color: tomato;
+  padding: 2vw;
+  background-color:black;
+  border: 0.5vw solid tomato;
+  font-weight: bold;
+  font-size: 1.5vw;
+  cursor: pointer;
 }
