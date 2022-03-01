@@ -28,7 +28,7 @@ const Game = () => {
         for(let op in opt){
             opt[op].forEach((pattern) => {
                 if(square[pattern[0]]==='' || square[pattern[1]]==='' || square[pattern[2]]===''){
-
+                    //do nothing
                 }else if(square[pattern[0]] === square[pattern[1]] && square[pattern[1]] === square[pattern[2]]){
                     setWinner(square[pattern[0]])
                 }
